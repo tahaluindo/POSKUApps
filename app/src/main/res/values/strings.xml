@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Postku</string>
+    <string name="app_description">Aplikasi Kasir Digital Gratis Untuk UMKM Indonesia</string>
+    <string name="label_btn_register">Daftar Akun</string>
+    <string name="label_btn_login">Masuk</string>
+    <string name="todo">TODO</string>
+    <string name="username_prefix">\u0040</string>
+    <string name="error_empty">This field cannot be blank</string>
+    <string name="error_connection">No internet connection, please check your mobile data</string>
+    <string name="error_server">Error connection to server</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="warning_rekening_bank">Isi data rekening bank untuk mentransfer Dana Qris</string>
+    <string name="news_notfound">Artikel tidak tersedia</string>
+    <string name="title_news_home">Artikel Bisnis</string>
+    <string name="title_btn_pos">Mulai Transaksi</string>
+    <string name="title_read_more">Read more...</string>
+    <string name="title_tab_menu">Menu</string>
+    <string name="title_tab_kategori">Kategori</string>
+    <string name="title_tab_stock">Stok</string>
+    <string name="simpan">Simpan</string>
+    <string name="subtitle_stock_manageent">Atur stock menu di menu management stock</string>
+    <string name="title_stock_menu">Stock Menu</string>
+    <string name="currency_symbol">Rp</string>
+    <string name="confirm_cancel_qris_message">Pastikan saldo customer belum terpotong, saat keluar halaman ini transaksi qris akan otomatis batal, silahkan membuat kode QRIS yang baru</string>
+    <string name="title_confirm_claim">Konfirmasi Klaim Saldo</string>
+    <string name="message_claim_saldo">Pastikan kamu terhubung ke internet untuk melakukan claim saldo qris mu. proses ini akan membutuhkan beberapa waktu, jangan tutup aplikasi saat proses sedang berlangsung</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_message">You must grant permission to access camera and external storage to run this application.</string>
+    <string name="permission_warning">All permissions are required.</string>
+
+    <string-array name="shop_category">
+        <item>Kafe</item>
+        <item>Coffee Shop</item>
+        <item>Roti dan Kue</item>
+        <item>Makanan dan Minuman</item>
+        <item>Toko retail</item>
+        <item>Minimarket</item>
+        <item>Toko olahraga</item>
+        <item>Butik dan Pakaian</item>
+        <item>Salon</item>
+        <item>Barbershop</item>
+        <item>Toko bangunan</item>
+        <item>Vape store</item>
+        <item>Laundry</item>
+        <item>Fotocopy</item>
+        <item>Bengkel</item>
+        <item>Cuci Steam</item>
+        <item>Toko Kecantikan</item>
+        <item>Klinik</item>
+        <item>Tourismn</item>
+        <item>Toko Lainnya</item>
+    </string-array>
+
+    <string-array name="trx_stock">
+        <item>Pilih Transaksi</item>
+        <item>Penambahan</item>
+        <item>Pengurangan</item>
+        <item>Reset Stock</item>
+    </string-array>
+
+    <string-array name="list_saran">
+        <item>Saran</item>
+        <item>Kritik</item>
+    </string-array>
+
+</resources>

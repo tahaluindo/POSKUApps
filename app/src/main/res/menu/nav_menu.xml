@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <group android:id="@+id/grp1"
+            android:checkableBehavior="single">
+                <item android:id="@+id/home"
+                    android:icon="@drawable/ic_home"
+                    android:title="Beranda"/>
+                <item android:id="@+id/kasir"
+                    android:icon="@drawable/ic_kasir"
+                    android:title="Kasir"/>
+                <item android:id="@+id/riwayat"
+                    android:icon="@drawable/ic_riwayat"
+                    android:title="Riwayat"/>
+                <item android:id="@+id/report"
+                    android:icon="@drawable/ic_report"
+                    android:title="Laporan"/>
+                <item android:id="@+id/toko"
+                    android:icon="@drawable/ic_toko"
+                    android:title="Toko"/>
+                <item android:id="@+id/pegawai"
+                    android:icon="@drawable/ic_person"
+                    android:title="Pegawai"/>
+                <item android:id="@+id/menu"
+                    android:icon="@drawable/ic_book_menu"
+                    android:title="Menu"/>
+                <item android:id="@+id/absensi"
+                    android:icon="@drawable/ic_absen"
+                    android:title="Absensi"/>
+                <item android:id="@+id/meja"
+                    android:icon="@drawable/ic_meja"
+                    android:title="Kelola Meja"/>
+                <item android:id="@+id/diskon"
+                    android:icon="@drawable/ic_diskon"
+                    android:title="Diskon"/>
+                <item android:id="@+id/customer"
+                    android:icon="@drawable/ic_customer"
+                    android:title="Pelanggan"/>
+                <item android:id="@+id/setting"
+                    android:icon="@drawable/ic_setting"
+                    android:title="Pengaturan"/>
+                <item android:id="@+id/chat"
+                    android:icon="@drawable/ic_chat"
+                    android:title="Chat Kami"/>
+        </group>
+        <group>
+                <item android:id="@+id/spacer"
+                    android:title="">
+
+                </item>
+        </group>
+
+</menu>

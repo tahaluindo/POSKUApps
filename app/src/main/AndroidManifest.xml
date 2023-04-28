@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.postkudigital.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="com.postkudigital.app.BaseApp"
+        android:allowBackup="false"
+        android:icon="@drawable/main_icons"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/main_icons"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+        <activity android:name="com.postkudigital.app.actvity.WebViewActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.postkudigital.app.fragment.report.ReportDiskonActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.absensi.DetailAbsenActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.absensi.AbsenStaffActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.report.RankingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.ArtikelActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.profil.EditProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.profil.DataBankActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.profil.ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.ppob.RiwayatPpobActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.wallet.RiwayatTopupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.ppob.ResultTransaksiActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.ppob.TransPpobActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.wallet.RiwayatPayActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.wallet.TopupPendingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.wallet.PilihChannelActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.wallet.KonfirmasiTopupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.ppob.PpobProductActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.ppob.PpobKategoriActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.wallet.TopUpSaldoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.setting.PrinterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.report.ReportRankingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.plus.PostkuPlusActivity"
+            android:theme="@style/AppThemePlus.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.qris.DetailClaimActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.qris.HistoryClaimActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.qris.HomeQrisActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.pos.SelectTableActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.pegawai.ManageStaffActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.wallet.ActivatedWalletActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.wallet.WalletActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.DetailWebActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.pos.ResultTransactionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.pos.PesananActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.pos.QrisActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.pos.PaymentActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.pos.DetailOrderActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.product.stok.DetailStockActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.product.menu.ManageMenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.toko.DetailTokoActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.fragment.riwayat.DetailTransaksiActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.SelectOutletActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.BeginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.postkudigital.app.actvity.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.postkudigital.app.actvity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
